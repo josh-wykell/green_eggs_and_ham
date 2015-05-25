@@ -15,7 +15,7 @@ class GreenEggsAndHamTest < MiniTest::Test
   end
 
   def test_02_all_unique_words_sorted
-    skip
+  
     expected = %w(a am and anywhere do eggs green ham here house i in
       like mouse not or sam sam-i-am that them there with would you)
     assert_equal expected, @book.sorted_unique_words
