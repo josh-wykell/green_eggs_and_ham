@@ -22,17 +22,17 @@ class GreenEggsAndHamTest < MiniTest::Test
   end
 
   def test_03_count_of_words_less_than_four_letters
-    skip
+    
     assert_equal 59, @book.number_of_words_shorter_than(4)
   end
 
   def test_04_longest_word
-    skip
+    
     assert_match /Sam-I-am/i, @book.longest_word
   end
 
   def test_05_all_unique_words_and_frequency
-    skip
+    
     expected = {
         "i" => 15, "am" => 2, "sam" => 2, "that" => 3,
         "sam-i-am" => 6, "do" => 11, "not" => 13, "like" => 15,
