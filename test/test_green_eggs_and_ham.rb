@@ -45,12 +45,12 @@ class GreenEggsAndHamTest < MiniTest::Test
   end
 
   def test_06_how_many_stanzas
-    skip
+  
     assert_equal 6, @book.stanzas.count
   end
 
   def test_07_line_count_should_not_include_blanks
-    skip
+    
     assert_equal 19, @book.lines.count
   end
 
